@@ -24,11 +24,14 @@ class ViewController: UIViewController {
         
         //Part 5: Set topLabel's text to "My Favorite Foods"
         topLabel.text = "My Favorite Foods"
-        
+        //Part 7
         bottomLabel.text = favoriteFoodsArray[currentIndex]
         
     }
 
+    
+    
+    
 
 }
 
