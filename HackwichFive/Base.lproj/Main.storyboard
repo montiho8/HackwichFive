@@ -35,6 +35,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1ep-Vm-gfj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -42,12 +45,13 @@
                     </view>
                     <connections>
                         <outlet property="bottomLabel" destination="uVT-9M-fom" id="14K-eX-hz3"/>
+                        <outlet property="buttonLabel" destination="x79-7Q-cAY" id="CXC-mE-doE"/>
                         <outlet property="topLabel" destination="Rqi-V8-Qmp" id="yDW-Cv-Ngx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="166" y="-8"/>
+            <point key="canvasLocation" x="-68" y="6"/>
         </scene>
     </scenes>
     <resources>
